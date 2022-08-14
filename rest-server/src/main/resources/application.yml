@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /core-services
+
+spring:
+  datasource:
+    name: core-services
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/core-services
+    username: dev_local
+    password: 'dev_local'
